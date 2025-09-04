@@ -1,3 +1,4 @@
+TOKEN : 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
 install:
 	@echo "install requirements in HF_SA_MLOps";\
     . start.sh; \
