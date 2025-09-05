@@ -1,0 +1,14 @@
+artifact_uri: file:///home/user/github-test/MLOps-Course-M2/project/mlops-project/mlruns/344394559364163949/ea4aad29074c4d44bc10b94ec93cc878/artifacts
+end_time: 1757075311787
+entry_point_name: ''
+experiment_id: '344394559364163949'
+lifecycle_stage: active
+run_id: ea4aad29074c4d44bc10b94ec93cc878
+run_name: logreg-gridsearch
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757075301910
+status: 4
+tags: []
+user_id: user

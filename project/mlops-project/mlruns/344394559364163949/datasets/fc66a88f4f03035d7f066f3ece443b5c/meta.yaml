@@ -1,0 +1,21 @@
+digest: 3646ed6a
+name: dataset
+profile: '{"num_rows": 5634, "num_elements": 112680}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "customerID", "required":
+  true}, {"type": "string", "name": "gender", "required": true}, {"type": "long",
+  "name": "SeniorCitizen", "required": true}, {"type": "string", "name": "Partner",
+  "required": true}, {"type": "string", "name": "Dependents", "required": true}, {"type":
+  "long", "name": "tenure", "required": true}, {"type": "string", "name": "PhoneService",
+  "required": true}, {"type": "string", "name": "MultipleLines", "required": true},
+  {"type": "string", "name": "InternetService", "required": true}, {"type": "string",
+  "name": "OnlineSecurity", "required": true}, {"type": "string", "name": "OnlineBackup",
+  "required": true}, {"type": "string", "name": "DeviceProtection", "required": true},
+  {"type": "string", "name": "TechSupport", "required": true}, {"type": "string",
+  "name": "StreamingTV", "required": true}, {"type": "string", "name": "StreamingMovies",
+  "required": true}, {"type": "string", "name": "Contract", "required": true}, {"type":
+  "string", "name": "PaperlessBilling", "required": true}, {"type": "string", "name":
+  "PaymentMethod", "required": true}, {"type": "double", "name": "MonthlyCharges",
+  "required": true}, {"type": "double", "name": "TotalCharges", "required": false}]}'
+source: '{"tags": {"mlflow.user": "user", "mlflow.source.name": "src/train.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "de3442bf59ad2c4ebe97c2e639ee7eb9f924bd2a"}}'
+source_type: code

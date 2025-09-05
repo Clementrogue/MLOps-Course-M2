@@ -1,0 +1,35 @@
+data:
+  csv_path: data/raw.csv
+  target: Churn
+  test_size: 0.2
+  random_state: 42
+
+features:
+  numeric: ["tenure", "MonthlyCharges", "TotalCharges"]
+  categorical: ["gender", "SeniorCitizen", "Partner", "Dependents",
+                "PhoneService", "MultipleLines", "InternetService",
+                "OnlineSecurity", "OnlineBackup", "DeviceProtection",
+                "TechSupport", "StreamingTV", "StreamingMovies",
+                "Contract", "PaperlessBilling", "PaymentMethod"]
+
+model:
+  type: "logreg"   # or "random_forest"
+  params:
+    logreg:
+      model__C: [0.1, 1.0, 10.0]
+      model__penalty: ["l2"]
+      model__solver: ["lbfgs", "liblinear"]
+    random_forest:
+      model__n_estimators: [200, 400]
+      model__max_depth: [None, 10, 20]
+      model__min_samples_split: [2, 5]
+
+cv:
+  strategy: "StratifiedKFold"
+  n_splits: 5
+  scoring: "roc_auc"
+  n_jobs: -1
+
+mlflow:
+  register_name: ""
+  artifact_dir: "artifacts"

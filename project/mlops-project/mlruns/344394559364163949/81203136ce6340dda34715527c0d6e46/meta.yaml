@@ -1,0 +1,14 @@
+artifact_uri: file:///home/user/github-test/MLOps-Course-M2/project/mlops-project/mlruns/344394559364163949/81203136ce6340dda34715527c0d6e46/artifacts
+end_time: 1757075485846
+entry_point_name: ''
+experiment_id: '344394559364163949'
+lifecycle_stage: active
+run_id: 81203136ce6340dda34715527c0d6e46
+run_name: suave-crane-865
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757075468884
+status: 3
+tags: []
+user_id: user
