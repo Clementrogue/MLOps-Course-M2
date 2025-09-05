@@ -1,0 +1,14 @@
+artifact_uri: file:///home/user/github-test/MLOps-Course-M2/project/mlops-project/mlruns/344394559364163949/483f748701034fb28e0974d795186a0d/artifacts
+end_time: 1757081977358
+entry_point_name: ''
+experiment_id: '344394559364163949'
+lifecycle_stage: active
+run_id: 483f748701034fb28e0974d795186a0d
+run_name: evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757081977254
+status: 3
+tags: []
+user_id: user
